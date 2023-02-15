@@ -3,7 +3,7 @@ from email.mime.base import MIMEBase
 from smtplib import SMTP
 
 mensaje= MIMEMultipart("plain")
-mensaje["From"]="dz09dz@hotmail.com"
+mensaje["From"]=""
 mensaje["To"]= ""
 mensaje["Subject"]= "Correo de prueba"
 
